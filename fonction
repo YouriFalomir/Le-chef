@@ -1,1 +1,15 @@
+# -*- coding:latin-1 -*-
+###
 
+
+
+
+
+###
+
+def deg(L):
+    for i in range (len(L)):
+        if L[len(L)-1-i]!=0:
+            return (len(L)-i-1)
+    return -1
+#A tester
