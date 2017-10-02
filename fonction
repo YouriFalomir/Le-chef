@@ -27,7 +27,7 @@ def unitaire (L):   
             L.append(A[i]+B[i])   
         return L
         
- def difference (A,B):    
+ def diff (A,B):    
     L=[]   
         for i in range (len(A)):       
         L.append(A[i]-B[i])   
