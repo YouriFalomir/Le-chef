@@ -13,3 +13,22 @@ def deg(L):
             return (len(L)-i-1)
     return -1
 #A tester
+
+def unitaire (L):   
+    while L[len(L)-1] == 0 :        
+        L.pop(len(L)-1)  
+    for i in range(len(L)):     
+        L[i]=float(L[i])/L[len(L)-1]   
+     return L
+     
+     def somme (A,B):    
+        L=[]   
+        for i in range (len(A)):       
+            L.append(A[i]+B[i])   
+        return L
+        
+ def difference (A,B):    
+    L=[]   
+        for i in range (len(A)):       
+        L.append(A[i]-B[i])   
+    return L
