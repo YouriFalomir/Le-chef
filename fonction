@@ -32,3 +32,9 @@ def unitaire (L):   
         for i in range (len(A)):       
         L.append(A[i]-B[i])   
     return L
+
+def evalue (L,x):
+    p=0
+    for i in range(len(L)):
+        p=p + L[i]*x**i
+    return p
